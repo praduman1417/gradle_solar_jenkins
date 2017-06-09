@@ -30,7 +30,7 @@ apply plugin: 'sonar-runner'
 sonarRunner {
     sonarProperties {
         property "sonar.host.url", "http://localhost:9000"
-        property "sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube
+        property "sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube"
         property "sonar.jdbc.driverClassName", "com.postgresql.Driver"
         property "sonar.jdbc.username", "solarqube"
         property "sonar.jdbc.password", "solarqube"
