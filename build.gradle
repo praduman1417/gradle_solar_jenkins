@@ -25,7 +25,7 @@ buildscript {
 }
 
 apply plugin: "org.sonarqube"
-apply plugin: 'sonar-runner'
+//apply plugin: 'sonar-runner'
 
 sonarRunner {
     sonarProperties {
