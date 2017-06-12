@@ -28,12 +28,12 @@ apply plugin: "org.sonarqube"
 
 sonarqube {
   properties {
-    property "sonar.projectName", "My Project Name"
-      property "sonar.host.url", "http://localhost:9000"
-     property "sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube"
-        property "sonar.jdbc.driverClassName", "com.postgresql.Driver"
-        property "sonar.jdbc.username", "solarqube"
-        property "sonar.jdbc.password", "solarqube"
+    property "systemProp.sonar.projectName", "My Project Name"
+      property "systemProp.sonar.host.url", "http://localhost:9000"
+     property "systemProp.sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube"
+        property "systemProp.sonar.jdbc.driverClassName", "com.postgresql.Driver"
+        property "systemProp.sonar.jdbc.username", "solarqube"
+        property "systemProp.sonar.jdbc.password", "solarqube"
   }
 }
 
