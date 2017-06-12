@@ -25,18 +25,32 @@ buildscript {
 }
 
 apply plugin: "org.sonarqube"
-apply plugin: 'sonarRunner'
 
-sonarRunner {
-   sonarProperties {
+sonarqube {
+  properties {
+    property "sonar.projectName", "My Project Name"
       property "sonar.host.url", "http://localhost:9000"
      property "sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube"
         property "sonar.jdbc.driverClassName", "com.postgresql.Driver"
         property "sonar.jdbc.username", "solarqube"
         property "sonar.jdbc.password", "solarqube"
-    }
+  }
 }
 
+
+//apply plugin: "sonarRunner"
+
+//class sonarRunner {
+//   sonarProperties {
+ //     property "sonar.host.url", "http://localhost:9000"
+//     property "sonar.jdbc.url", "jdbc:postgresql://qa-prod2.erecyclingcorps.com:5432/solarqube"
+//        property "sonar.jdbc.driverClassName", "com.postgresql.Driver"
+//        property "sonar.jdbc.username", "solarqube"
+//        property "sonar.jdbc.password", "solarqube"
+//    }
+//}
+
+//apply plugin: "sonar-Runner"
 
 
 // In this section you declare where to find the dependencies of your project

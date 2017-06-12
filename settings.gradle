@@ -13,6 +13,9 @@
 include 'shared'
 include 'api'
 include 'services:webservice'
+//include 'sonarqube'
+//include 'sonar-runner'
+
 */
 
 rootProject.name = 'gradle_solar_jenkins'
