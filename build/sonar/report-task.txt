@@ -1,5 +1,5 @@
 projectKey=gradle_solar_jenkins
 serverUrl=http://localhost:9000
 dashboardUrl=http://localhost:9000/dashboard/index/gradle_solar_jenkins
-ceTaskId=AVya05Ug5PFaANmRGl6i
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVya05Ug5PFaANmRGl6i
+ceTaskId=AV2Dr6m6f2d92tBWehl7
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AV2Dr6m6f2d92tBWehl7
